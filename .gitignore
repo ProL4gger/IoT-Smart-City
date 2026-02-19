@@ -1,0 +1,9 @@
+.env
+config.py
+secrets.json
+device_mapping.json
+device_mapping.csv
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
