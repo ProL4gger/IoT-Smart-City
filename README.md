@@ -45,6 +45,8 @@ All subprojects use a LilyGO T3 (ESP32) board
 
 ### 4. Smart Motion-Activated Security System
 **Hardware:** HC-SR04 Ultrasonic Sensor.
+*Logic:** Motion detection via PIR sensor with real-time OLED feedback; readings are uploaded to a Flask server at a configurable interval
+
 
 ### 5. Fallen Object Detection
 **Hardware:** MPU6050 Gyroscope/Accelerometer
