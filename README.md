@@ -44,7 +44,7 @@ All subprojects use a LilyGO T3 (ESP32) board
 ### 3. Smart Parking Availability System
 
 ### 4. Smart Motion-Activated Security System
-**Hardware:** HC-SR04 Ultrasonic Sensor.
+**Hardware:** HC-SR04 Ultrasonic Sensor.     
 *Logic:** Motion detection via PIR sensor with real-time OLED feedback; readings are uploaded to a Flask server at a configurable interval
 
 
