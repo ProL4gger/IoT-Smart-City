@@ -34,11 +34,12 @@ To ensure compatibility across different subprojects, all devices must POST a st
 All subprojects use a LilyGO T3 (ESP32) board
 
 ### 1. Automated People Counter  
-**Hardware:** Dual HC-SR04 Ultrasonic Sensors.
+**Hardware:** Dual HC-SR04 Ultrasonic Sensors.  
 **Logic:** Directional sequence detection (Entry/Exit) with real-time OLED feedback.
 
 ### 2. Smart Door State Monitoring & Breach Detector
 **Hardware:** Smart Door Sensor, LED, Buzzer.  
+**Logic:** Door state detection (open/closed) with real-time LED and buzzer feedback
 
 ### 3. Smart Parking Availability System
 
