@@ -18,7 +18,7 @@ This project implements a **Centralized Gateway Pattern**. Instead of edge devic
 * **Cloud Layer:** A unified ThingsBoard instance for cross-project data visualization.
 
 ## 📡 Unified Communication Protocol
-To ensure compatibility across different teams, all devices must POST a standardized JSON packet to `/api/telemetry`:
+To ensure compatibility across different subprojects, all devices must POST a standardized JSON packet to `/api/telemetry`:
 
 ```json
 {
