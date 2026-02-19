@@ -47,7 +47,8 @@ All subprojects use a LilyGO T3 (ESP32) board
 **Hardware:** HC-SR04 Ultrasonic Sensor.
 
 ### 5. Fallen Object Detection
-**Hardware:** MPU6050 Gyroscope/Accelerometer 
+**Hardware:** MPU6050 Gyroscope/Accelerometer
+**Logic:** Continuous acceleration monitoring across X/Y/Z axes; sudden spike detection (delta > 21,750 units) triggers a 3-beep buzzer alert pattern, while real-time acceleration values are displayed on the OLED screen.
 
 ### Unified Python Gateway
 **Dynamic Provisioning:** Automatically creates new device entities on ThingsBoard using the REST API if a new project_id is detected.
