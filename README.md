@@ -38,20 +38,15 @@ All subprojects use a LilyGO T3 (ESP32) board
 **Logic:** Directional sequence detection (Entry/Exit) with real-time OLED feedback.
 
 ### 2. Smart Door State Monitoring & Breach Detector
-**Hardware:** Smart Door Sensor, LED, Buzzer.
-**Logic:** 
+**Hardware:** Smart Door Sensor, LED, Buzzer.  
 
 ### 3. Smart Parking Availability System
-**Hardware:** 
-**Logic:** 
 
 ### 4. Smart Motion-Activated Security System
 **Hardware:** HC-SR04 Ultrasonic Sensor.
-**Logic:** 
 
 ### 5. Fallen Object Detection
 **Hardware:** MPU6050 Gyroscope/Accelerometer 
-**Logic:** 
 
 ### Unified Python Gateway
 **Dynamic Provisioning:** Automatically creates new device entities on ThingsBoard using the REST API if a new project_id is detected.
