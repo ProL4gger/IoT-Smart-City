@@ -39,13 +39,15 @@ All subprojects use a LilyGO T3 (ESP32) board
 
 ### 2. Smart Door State Monitoring & Breach Detector
 **Hardware:** Smart Door Sensor, LED, Buzzer.  
-**Logic:** Door state detection (open/closed) with real-time LED and buzzer feedback
+**Logic:** Door state detection (open/closed) with real-time LED and buzzer feedback. 
 
 ### 3. Smart Parking Availability System
+**Hardware:** HC-SR04 Ultrasonic Sensor.  
+**Logic:** Distance threshold-based state detection of parking space (vacant/occupied) with real-time OLED feedback. 
 
 ### 4. Smart Motion-Activated Security System
 **Hardware:** HC-SR04 Ultrasonic Sensor.     
-**Logic:** Motion detection via PIR sensor with real-time OLED feedback; readings are uploaded to a Flask server at a configurable interval
+**Logic:** Motion detection via PIR sensor with real-time OLED feedback; readings are uploaded to a Flask server at a configurable interval. 
 
 
 ### 5. Fallen Object Detection
